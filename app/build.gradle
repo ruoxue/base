@@ -2,11 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion "24.0.0 rc2"
 
     defaultConfig {
-        applicationId "com.ruoxue.basic"
-        minSdkVersion 14
+        applicationId "xyz.ruoxue.base"
+        minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -17,16 +17,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-//    dataBinding {
-//        enabled = true
-//    }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'me.neavo:volley:2014.12.09'
     compile 'com.alibaba:fastjson:1.2.7'
     compile 'org.xutils:xutils:3.2.2'
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'

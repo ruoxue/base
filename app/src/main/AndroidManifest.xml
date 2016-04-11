@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ruoxue.basic"
-
-    android:versionCode="2">
+    package="xyz.ruoxue.base">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- 网络权限 -->
@@ -26,5 +24,6 @@
         </activity>
         <activity android:name=".activities.SplashActivity"></activity>
     </application>
+
 
 </manifest>
